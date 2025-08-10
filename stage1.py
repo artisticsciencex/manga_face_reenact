@@ -1,12 +1,3 @@
-'''
-A sub-directory will be created inside your main output_dir, named after the source image (e.g., prepared_faces_final/my_image/).
-
-All cropped faces from that source image will be saved into this new sub-directory.
-
-The face numbering for each source image will start from 0 (e.g., face_0.png, face_1.png).
-
-A separate metadata.json will be saved inside each sub-directory, containing information only for the faces from that specific source image.
-'''
 
 
 import cv2
